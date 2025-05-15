@@ -1,0 +1,14 @@
+.\objects\usr_osal.o: UsrCode\Usr_Osal.c
+.\objects\usr_osal.o: UsrCode\Usr_Config.h
+.\objects\usr_osal.o: UsrCode\Usr_Debug.h
+.\objects\usr_osal.o: .\UsrCode\MultiButton-master\multi_button.h
+.\objects\usr_osal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usr_osal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\type.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\osal.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\osal_timer.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\osal_event.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\osal_memory.h
+.\objects\usr_osal.o: .\UsrCode\osal\osal\osal_msg.h
+.\objects\usr_osal.o: UsrCode\Usr_Osal.h
+.\objects\usr_osal.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
