@@ -1,0 +1,14 @@
+--cpu Cortex-M0
+".\objects\usrcode.o"
+".\objects\usrled.o"
+".\objects\nrf_drv_common_1.o"
+".\objects\nrf_adc.o"
+".\objects\nrf_ecb.o"
+".\objects\nrf_nvmc.o"
+".\objects\nrf_saadc.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\system_nrf51.o"
+--strict --scatter ".\Objects\Nrf51_GPIO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Nrf51_GPIO.map" -o .\Objects\Nrf51_GPIO.axf

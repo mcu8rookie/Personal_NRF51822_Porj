@@ -1,0 +1,13 @@
+.\objects\system_nrf51.o: RTE/Device/nRF51822_xxAC/system_nrf51.c
+.\objects\system_nrf51.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_nrf51.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_nrf51.o: ..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h
+.\objects\system_nrf51.o: ..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h
+.\objects\system_nrf51.o: C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h
+.\objects\system_nrf51.o: C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\system_nrf51.o: C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\system_nrf51.o: C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\system_nrf51.o: C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h
+.\objects\system_nrf51.o: ..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h
+.\objects\system_nrf51.o: ..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h
+.\objects\system_nrf51.o: ..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h

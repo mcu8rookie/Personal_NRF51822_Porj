@@ -1,0 +1,149 @@
+Dependencies for Project 'Nrf51_GPIO', Target 'Nrf51_GPIO': (DO NOT MODIFY !)
+CompilerVersion: 5050169::V5.05 update 2 (build 169)::..\..\Keil_v5\ARM\ARMCC
+F (.\UsrCode\UsrCode.c)(0x67B94D53)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\usrcode.o --omf_browse .\objects\usrcode.crf --depend .\objects\usrcode.d)
+I (UsrCode\UsrCode.h)(0x67B29811)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51822_peripherals.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_gpio.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_peripherals.h)(0x6721CC04)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nrf_assert.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_errors.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers\nrf_error.h)(0x590C5DA5)
+I (.\UsrCode\sdk_config.h)(0x590C60A3)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nordic_common.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error_weak.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay\nrf_delay.h)(0x590C6BCD)
+I (UsrCode\UsrLed.h)(0x6721B0E4)
+F (.\UsrCode\UsrLed.c)(0x6721B098)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\usrled.o --omf_browse .\objects\usrled.crf --depend .\objects\usrled.d)
+I (UsrCode\UsrCode.h)(0x67B29811)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51822_peripherals.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_gpio.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_peripherals.h)(0x6721CC04)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nrf_assert.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_errors.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers\nrf_error.h)(0x590C5DA5)
+I (.\UsrCode\sdk_config.h)(0x590C60A3)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nordic_common.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error_weak.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (UsrCode\UsrLed.h)(0x6721B0E4)
+F (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\common\nrf_drv_common.c)(0x590C6BCD)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\nrf_drv_common_1.o --omf_browse .\objects\nrf_drv_common_1.crf --depend .\objects\nrf_drv_common_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\common\nrf_drv_common.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_errors.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers\nrf_error.h)(0x590C5DA5)
+I (.\UsrCode\sdk_config.h)(0x590C60A3)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_common.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nordic_common.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_os.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_util.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\sdk_macros.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\nrf_assert.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_error_weak.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util\app_util_platform.h)(0x590C6BCD)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_peripherals.h)(0x6721CC04)
+F (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_adc.c)(0x590C6BCD)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\nrf_adc.o --omf_browse .\objects\nrf_adc.crf --depend .\objects\nrf_adc.d)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_adc.h)(0x590C6BCD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_peripherals.h)(0x6721CC04)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+F (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_ecb.c)(0x590C6BCD)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\nrf_ecb.o --omf_browse .\objects\nrf_ecb.crf --depend .\objects\nrf_ecb.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_ecb.h)(0x590C6BCD)
+F (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_nvmc.c)(0x590C6BCD)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\nrf_nvmc.o --omf_browse .\objects\nrf_nvmc.crf --depend .\objects\nrf_nvmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_nvmc.h)(0x590C6BCD)
+F (..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal\nrf_saadc.c)(0x590C6BCD)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\nrf_saadc.o --omf_browse .\objects\nrf_saadc.crf --depend .\objects\nrf_saadc.d)
+I (.\UsrCode\sdk_config.h)(0x590C60A3)
+F (RTE/Device/nRF51822_xxAC/arm_startup_nrf51.s)(0x61972BE0)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "NRF51 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\arm_startup_nrf51.lst --xref -o .\objects\arm_startup_nrf51.o --depend .\objects\arm_startup_nrf51.d)
+F (RTE/Device/nRF51822_xxAC/system_nrf51.c)(0x61972BE0)(--c99 -c --cpu Cortex-M0 -g -O1 --apcs=interwork --split_sections -I .\UsrCode -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\hal -I ..\nRF5_SDK_12.3.0_d7731ad\components\libraries\util -I ..\nRF5_SDK_12.3.0_d7731ad\components\softdevice\s132\headers -I ..\nRF5_SDK_12.3.0_d7731ad\components\device -I ..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\delay-I.\RTE\_Nrf51_GPIO-IC:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF51 -D_RTE_ -DNRF51-o .\objects\system_nrf51.o --omf_browse .\objects\system_nrf51.crf --depend .\objects\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51.h)(0x590C5DB9)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm0.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (C:\Keil_v5d38\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.5.0\Device\Include\system_nrf51.h)(0x56CC2CE4)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_bitfields.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\nrf51_deprecated.h)(0x590C5DB9)
+I (..\nRF5_SDK_12.3.0_d7731ad\components\device\compiler_abstraction.h)(0x590C5DB9)

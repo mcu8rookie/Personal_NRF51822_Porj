@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a Lilu, HP Inc., LIC=21E4T-R3SD9-CXIU6-DQ7C6-M43UF-1WSIH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\M14D\PersonalProject\PicoMCU\Foreign\Nordic\NRF51822_Proj\NRF51_GPIO\Nrf51_GPIO.uvprojx
+Project File Date:  02/22/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Nrf51_GPIO'
+Note: source file '..\nRF5_SDK_12.3.0_d7731ad\components\drivers_nrf\common\nrf_drv_common.c' - object file renamed from '.\Objects\nrf_drv_common.o' to '.\Objects\nrf_drv_common_1.o'.
+assembling arm_startup_nrf51.s...
+compiling nrf_saadc.c...
+compiling system_nrf51.c...
+RTE/Device/nRF51822_xxAC/system_nrf51.c(29): error:  #5: cannot open source input file "nrf51_erratas.h": No such file or directory
+  #include "nrf51_erratas.h"
+RTE/Device/nRF51822_xxAC/system_nrf51.c: 0 warnings, 1 error
+compiling nrf_adc.c...
+compiling UsrLed.c...
+compiling nrf_drv_common.c...
+compiling nrf_ecb.c...
+compiling UsrCode.c...
+compiling nrf_nvmc.c...
+".\Objects\Nrf51_GPIO.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.5.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.5.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.5.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Nrf51_GPIO
+  C:/Keil_v5d38/ARM/PACK/ARM/CMSIS/5.6.0/CMSIS/Core/Include
+  C:/Keil_v5d38/ARM/PACK/NordicSemiconductor/nRF_DeviceFamilyPack/8.5.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.5.0
+      Source file:   Device/Source/arm/arm_startup_nrf51.s
+      Include file:  Device/Include/system_nrf51.h
+      Source file:   Device/Source/system_nrf51.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
