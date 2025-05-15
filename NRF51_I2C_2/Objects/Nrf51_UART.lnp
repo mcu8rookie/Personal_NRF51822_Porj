@@ -1,0 +1,24 @@
+--cpu Cortex-M0
+".\objects\usr_code.o"
+".\objects\usr_led.o"
+".\objects\usr_timer.o"
+".\objects\usr_uart.o"
+".\objects\usr_i2c.o"
+".\objects\nrf_drv_common_1.o"
+".\objects\nrf_drv_uart.o"
+".\objects\app_uart_fifo.o"
+".\objects\retarget.o"
+".\objects\app_error.o"
+".\objects\app_error_weak.o"
+".\objects\nrf_assert.o"
+".\objects\app_fifo.o"
+".\objects\nrf_drv_timer.o"
+".\objects\nrf_drv_twi.o"
+".\objects\twi_hw_master.o"
+".\objects\multi_button.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\system_nrf51.o"
+--strict --scatter ".\Objects\Nrf51_UART.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Nrf51_UART.map" -o .\Objects\Nrf51_UART.axf
