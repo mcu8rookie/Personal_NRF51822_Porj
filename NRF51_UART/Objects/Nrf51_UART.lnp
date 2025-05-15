@@ -1,0 +1,19 @@
+--cpu Cortex-M0
+".\objects\usrcode.o"
+".\objects\usrled.o"
+".\objects\usruart.o"
+".\objects\nrf_drv_common_1.o"
+".\objects\nrf_drv_uart.o"
+".\objects\app_uart_fifo.o"
+".\objects\retarget.o"
+".\objects\app_error.o"
+".\objects\app_error_weak.o"
+".\objects\nrf_assert.o"
+".\objects\app_fifo.o"
+".\objects\app_util_platform.o"
+".\objects\arm_startup_nrf51.o"
+".\objects\system_nrf51.o"
+--library_type=microlib --strict --scatter ".\Objects\Nrf51_UART.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Nrf51_UART.map" -o .\Objects\Nrf51_UART.axf
